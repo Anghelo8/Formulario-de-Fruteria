@@ -1,0 +1,27 @@
+/* Contenedor principal del header */
+.header {
+  background: linear-gradient(90deg, #1E40AF, #3B82F6); /* Degradado azul de izquierda a derecha */
+  color: white; /* Color del texto en blanco */
+  padding: 1.5rem; /* Espaciado interno alrededor del contenido */
+  text-align: center; /* Centrar el texto horizontalmente */
+  border-radius: 0 0 15px 15px; /* Bordes redondeados solo en la parte inferior */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Sombra suave para dar profundidad */
+}
+
+/* Estilo del título principal */
+.header h1 {
+  margin: 0; /* Quitar margen por defecto */
+  font-size: 2rem; /* Tamaño de fuente grande */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3); /* Sombra del texto para resaltar */
+}
+
+/* Estilo del subtítulo o descripción */
+.header p {
+  margin: 0.3rem 0 0 0; /* Margen superior pequeño, los demás 0 */
+  font-size: 1rem; /* Tamaño de fuente normal */
+  font-weight: 400; /* Peso de fuente normal */
+  opacity: 0.9; /* Ligeramente transparente para suavizar */
+  border-top: 1px solid rgba(255,255,255,0.5); /* Línea superior semitransparente como separador */
+  padding-top: 0.3rem; /* Espaciado interno arriba para separar del texto */
+  margin-top: 0.5rem; /* Margen superior para separar del título */
+}

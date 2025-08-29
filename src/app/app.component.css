@@ -1,0 +1,46 @@
+/* Estilo para el encabezado h1 */
+h1 {
+  text-align: center; /* Centra el texto horizontalmente */
+  color: #ff6600; /* Establece el color del texto en naranja (#ff6600) */
+}
+
+/* Estilo para el contenedor de frutas */
+.frutas {
+  display: flex; /* Usa Flexbox para organizar los elementos hijos */
+  gap: 20px; /* Espacio de 20px entre cada elemento hijo */
+  justify-content: center; /* Centra los elementos hijos horizontalmente */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas si no caben */
+}
+
+/* Estilo para cada tarjeta de fruta */
+.fruta {
+  border: 1px solid #ddd; /* Borde gris claro de 1px */
+  border-radius: 10px; /* Bordes redondeados de 10px */
+  padding: 10px; /* Espaciado interno de 10px */
+  text-align: center; /* Centra el texto dentro del elemento */
+  width: 150px; /* Ancho fijo de 150px */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Sombra sutil para dar efecto de elevación */
+}
+
+/* Estilo para las imágenes dentro de .fruta */
+.fruta img {
+  width: 100px; /* Ancho de la imagen de 100px */
+  height: 100px; /* Alto de la imagen de 100px */
+  object-fit: cover; /* Escala la imagen para que cubra todo el contenedor sin deformarse */
+}
+
+/* Estilo para los inputs */
+input {
+  margin: 5px; /* Margen externo de 5px */
+  padding: 5px; /* Espaciado interno de 5px */
+}
+
+/* Estilo para los botones */
+button {
+  padding: 5px 10px; /* Espaciado interno: 5px vertical, 10px horizontal */
+  background-color: #ff6600; /* Color de fondo naranja */
+  color: white; /* Color del texto en blanco */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados de 5px */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar por encima (clickable) */
+}

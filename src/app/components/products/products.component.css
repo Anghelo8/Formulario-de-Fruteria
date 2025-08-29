@@ -1,0 +1,11 @@
+/* Estilos al pasar el mouse sobre cada tarjeta de producto */
+.product-card:hover {
+  transform: translateY(-8px) scale(1.02); 
+  /* Mueve la tarjeta ligeramente hacia arriba y la aumenta un 2% */
+  
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3); 
+  /* Aplica una sombra más grande para dar efecto de elevación */
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  /* Transición suave de 0.3s para el movimiento y la sombra */
+}
